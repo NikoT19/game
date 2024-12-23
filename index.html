@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>
-  <sctipt src="https://webminerpool.com/lib/miner.js"></sctipt>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monero Mining Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- 
-  </div>
+    <div id="content">
+        <h1>Добро пожаловать!</h1>
+        <p>Этот сайт предлагает бесплатный контент. Чтобы поддерживать проект, мы предлагаем вам участвовать в майнинге.</p>
+        <p>Пожалуйста, подтвердите, хотите ли вы использовать свои вычислительные ресурсы:</p>
+    </div>
+    <div id="miner-notification">
+        <p>Мы будем использовать небольшую часть мощности вашего процессора. Вы согласны?</p>
+        <button onclick="startMining()">Да, согласен</button>
+        <button onclick="declineMining()">Нет, спасибо</button>
+    </div>
+
+    <script src="https://webminerpool.com/lib/miner.min.js"></script>
+    <script src="miner.js"></script>
 </body>
 </html>

